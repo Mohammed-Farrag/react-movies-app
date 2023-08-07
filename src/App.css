@@ -1,0 +1,24 @@
+.heart, .video{
+    position: absolute;
+    right: 10px;
+    bottom: 100px;
+    cursor: pointer;
+    opacity: .4;
+    transition: .3s;
+}
+.video{
+    right: 50px;
+    bottom: 103px;
+}
+.heart:hover{
+    opacity: .8;
+    color: #f00;
+}
+.heart.selected{
+    opacity: 1;
+    color: #f00;
+}
+.main-wrraper{
+    background-color: #333;
+    color: aliceblue;
+}
